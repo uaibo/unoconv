@@ -21,7 +21,7 @@ abstract class AbstractTransport
     public static function create($transport, $config)
     {
         if (is_string($transport)) {
-            $className = 'Angus\\Unoconv\\Transport\\' . $transport;
+            $className = 'Angusm73\\Unoconv\\Transport\\' . $transport;
 
             if (!class_exists($className)) {
                 throw new \Exception('Invalid transport');
