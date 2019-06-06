@@ -16,7 +16,6 @@ class UnoconvServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/unoconv.php' => config_path('unoconv.php'),
         ], 'config');
-
     }
 
     /**
@@ -30,19 +29,5 @@ class UnoconvServiceProvider extends ServiceProvider
             __DIR__ . '/../config/unoconv.php',
             'unoconv'
         );
-
-        $this->app['unoconv'] = $this->app->share(function ($app) {
-            return new Unoconv(config('unoconv'), $app['filesystem'], $app['queue']);
-        });
-    }
-
-    /**
-     * Get the services provided by the provider.
-     *
-     * @return array
-     */
-    public function provides()
-    {
-        return ['unoconv'];
     }
 }
