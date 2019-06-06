@@ -32,7 +32,7 @@
         },
         "laravel": {
             "providers": [
-                "Angusm73\\Unoconv\\UnoconvServiceProviders"
+                "Angusm73\\Unoconv\\UnoconvServiceProvider"
             ],
             "aliases": {
                 "Unoconv": "Angusm73\\Unoconv\\Facades\\Unoconv"
