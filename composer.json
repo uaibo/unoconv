@@ -1,11 +1,12 @@
 {
-    "name": "eboost/unoconv",
-    "description": "Convert documents using unoconv. ",
+    "name": "angusm73/unoconv",
+    "description": "Convert documents using unoconv inside a Laravel application.",
     "keywords": [
         "converter",
         "documents",
         "eboost",
-        "unoconv"
+        "unoconv",
+        "laravel"
     ],
     "homepage": "https://bitbucket.eboost.nl/projects/EP/repos/unoconv",
     "license": "MIT",
