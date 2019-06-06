@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by Eboost Interactive BV.
- * User: Bert van Hoekelen
- * Date: 15/03/16
- */
 
-namespace Eboost\Unoconv\Transport;
+namespace Angusm73\Unoconv\Transport;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Uri;
@@ -45,8 +40,8 @@ class Guzzle extends AbstractTransport
     /**
      * Execute the convert command.
      *
-     * @param \Eboost\Unoconv\ConvertFile $input
-     * @param \Eboost\Unoconv\ConvertFile $output
+     * @param \Angusm73\Unoconv\ConvertFile $input
+     * @param \Angusm73\Unoconv\ConvertFile $output
      */
     public function convert($input, $output)
     {
@@ -89,7 +84,7 @@ class Guzzle extends AbstractTransport
      */
     protected function getBaseUrl($config)
     {
-        $url = (string) Uri::fromParts([
+        $url = (string)Uri::fromParts([
             'scheme' => $config['scheme'],
             'host' => $config['host'],
             'port' => $config['port'],

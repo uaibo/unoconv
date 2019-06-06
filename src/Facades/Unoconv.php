@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by Eboost Interactive BV.
- * User: Bert van Hoekelen
- * Date: 15/03/16
- */
 
-namespace Eboost\Unoconv\Facades;
+namespace Angusm73\Unoconv\Facades;
 
 class Unoconv extends \Illuminate\Support\Facades\Facade
 {

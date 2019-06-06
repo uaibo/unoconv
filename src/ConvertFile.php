@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by Eboost Interactive BV.
- * User: Bert van Hoekelen
- * Date: 16/03/16
- */
 
-namespace Eboost\Unoconv;
+namespace Angusm73\Unoconv;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 

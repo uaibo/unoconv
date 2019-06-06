@@ -4,16 +4,15 @@
     "keywords": [
         "converter",
         "documents",
-        "eboost",
         "unoconv",
         "laravel"
     ],
-    "homepage": "https://bitbucket.eboost.nl/projects/EP/repos/unoconv",
+    "homepage": "https://github.com/angusm73/unoconv",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bert van Hoekelen",
-            "email": "bert@eboost.co",
+            "name": "Angus Moore",
+            "email": "hi@angus.digital",
             "role": "Developer"
         }
     ],
@@ -24,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Eboost\\Unoconv\\": "src"
+            "Angusm73\\Unoconv\\": "src"
         }
     },
     "extra": {

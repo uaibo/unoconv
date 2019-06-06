@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by Eboost Interactive BV.
- * User: Bert van Hoekelen
- * Date: 15/03/16
- */
 
-namespace Eboost\Unoconv\Transport;
+namespace Angusm73\Unoconv\Transport;
 
-
-use Eboost\Unoconv\ConvertFile;
+use Angusm73\Unoconv\ConvertFile;
 
 abstract class AbstractTransport
 {
@@ -27,7 +21,7 @@ abstract class AbstractTransport
     public static function create($transport, $config)
     {
         if (is_string($transport)) {
-            $className = 'Eboost\\Unoconv\\Transport\\' . $transport;
+            $className = 'Angus\\Unoconv\\Transport\\' . $transport;
 
             if (!class_exists($className)) {
                 throw new \Exception('Invalid transport');

@@ -1,9 +1,9 @@
 <?php
 
-namespace Eboost\Unoconv\Jobs;
+namespace Angusm73\Unoconv\Jobs;
 
-use Eboost\Unoconv\ConvertFile as InOutFile;
-use Eboost\Unoconv\Transport\AbstractTransport;
+use Angusm73\Unoconv\ConvertFile as InOutFile;
+use Angusm73\Unoconv\Transport\AbstractTransport;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eboost\Unoconv;
+namespace Angusm73\Unoconv;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,10 +1,10 @@
 # Unoconv Laravel API
 
-A Laravel wrapper for unoconv as a webservice. See [Convert](https://github.com/EBOOST/Convert) for more details.
+A Laravel wrapper for unoconv.
 
 ## Installation
 
-Install this package through [Composer](https://getcomposer.org/). 
+Install this package through [Composer](https://getcomposer.org/).
 
 Add this to your `composer.json` dependencies:
 
@@ -12,7 +12,7 @@ Add this to your `composer.json` dependencies:
 
 ```js
 "require": {
-   "eboost/unoconv": "dev-master"
+   "angusm73/unoconv": "dev-master"
 }
 ```
 
@@ -23,7 +23,7 @@ Next you need to add the service provider to `config/app.php`
 ```php
 'providers' => [
     ...
-    Eboost\Unoconv\UnoconvServiceProvider::class
+    Angusm73\Unoconv\UnoconvServiceProvider::class
 ]
 ```
 
@@ -32,13 +32,13 @@ Set up the [facade](http://laravel.com/docs/facades). Add the reference in `conf
 ```php
 'aliases'  => [
     ...
-    'Unoconv' => Eboost\Unoconv\Facades\Unoconv::class,
+    'Unoconv' => Angusm73\Unoconv\Facades\Unoconv::class,
 ]
 ```
 
 Publish the config
 ```sh
-php artisan vendor:publish --provider="Eboost\Unoconv\UnoconvServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Angusm73\Unoconv\UnoconvServiceProvider" --tag="config"
 ```
 
 ## Usage

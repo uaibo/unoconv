@@ -1,14 +1,9 @@
 <?php
-/**
- * Created by Eboost Interactive BV.
- * User: Bert van Hoekelen
- * Date: 16/03/16
- */
 
-namespace Eboost\Unoconv;
+namespace Angusm73\Unoconv;
 
 use Illuminate\Filesystem\FilesystemManager;
-use Eboost\Unoconv\Transport\AbstractTransport;
+use Angusm73\Unoconv\Transport\AbstractTransport;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Queue\QueueManager;
 
