@@ -30,6 +30,8 @@ class UnoconvServiceProvider extends ServiceProvider
             'unoconv'
         );
 
-        $this->singleton('unoconv', Unoconv::class);
+        $this->app->singleton('unoconv', function ($app) {
+            return new Unoconv(config('unoconv'), $app['filesystem'], $app['queue']);
+        });
     }
 }
