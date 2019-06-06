@@ -29,6 +29,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Angusm73\\Unoconv\\UnoconvServiceProviders"
+            ],
+            "aliases": {
+                "Unoconv": "Angusm73\\Unoconv\\Facades\\Unoconv"
+            }
         }
     }
 }

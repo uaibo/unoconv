@@ -29,5 +29,7 @@ class UnoconvServiceProvider extends ServiceProvider
             __DIR__ . '/../config/unoconv.php',
             'unoconv'
         );
+
+        $this->singleton('unoconv', Unoconv::class);
     }
 }
