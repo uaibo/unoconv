@@ -1,5 +1,5 @@
 {
-    "name": "angusm73/unoconv",
+    "name": "fatiru/unoconv",
     "description": "Convert documents using unoconv inside a Laravel application.",
     "keywords": [
         "converter",
@@ -7,19 +7,19 @@
         "unoconv",
         "laravel"
     ],
-    "homepage": "https://github.com/angusm73/unoconv",
+    "homepage": "https://github.com/fatiru/unoconv",
     "license": "MIT",
     "authors": [
         {
-            "name": "Angus Moore",
-            "email": "hi@angus.digital",
+            "name": "Fatiru",
+            "email": "dev@fanetz.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "illuminate/support": "~5.1",
-        "php" : ">=7.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "illuminate/support": "~6.*",
+        "php" : ">=7.2",
+        "guzzlehttp/guzzle": "^6.*"
     },
     "autoload": {
         "psr-4": {
